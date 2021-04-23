@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/peleenetssd_seg.dir/peleenetssd_seg.cpp.o  -o peleenetssd_seg  -L/usr/local/cuda/lib64 -Wl,-rpath,/usr/local/cuda/lib64:/usr/local/lib ../src/libncnn.a /usr/local/lib/libopencv_world.so.4.3.0 -lgomp -lpthread -pthread 

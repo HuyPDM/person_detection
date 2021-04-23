@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/yolov4.dir/yolov4.cpp.o  -o yolov4  -L/usr/local/cuda/lib64 -Wl,-rpath,/usr/local/cuda/lib64:/usr/local/lib ../src/libncnn.a /usr/local/lib/libopencv_world.so.4.3.0 -lgomp -lpthread -pthread 

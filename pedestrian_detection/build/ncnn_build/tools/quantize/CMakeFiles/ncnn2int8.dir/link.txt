@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o  -o ncnn2int8  -L/usr/local/cuda/lib64 -Wl,-rpath,/usr/local/cuda/lib64 ../../src/libncnn.a -lgomp -lpthread -pthread 
